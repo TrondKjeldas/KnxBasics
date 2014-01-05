@@ -8,6 +8,7 @@
 
 #import "KnxRouterInterface.h"
 #import "KnxResponse.h"
+#include "KnxSubscription.h"
 
 void writeTelegram(KnxRequest *request,NSOutputStream *tstream);
 
