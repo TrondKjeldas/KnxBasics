@@ -6,14 +6,353 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFF986811879AA3300EC98D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF986801879AA3300EC98D7 /* Cocoa.framework */; };
+		BFF986921879AA3300EC98D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF986911879AA3300EC98D7 /* XCTest.framework */; };
+		BFF986931879AA3300EC98D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF986801879AA3300EC98D7 /* Cocoa.framework */; };
+		BFF986961879AA3300EC98D7 /* libKnxBasicsOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF9867D1879AA3300EC98D7 /* libKnxBasicsOSX.a */; };
+		BFF9869C1879AA3300EC98D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFF9869A1879AA3300EC98D7 /* InfoPlist.strings */; };
+		BFF9869E1879AA3300EC98D7 /* KnxBasicsOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9869D1879AA3300EC98D7 /* KnxBasicsOSXTests.m */; };
+		BFF986AB1879AA9900EC98D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF986AA1879AA9900EC98D7 /* Foundation.framework */; };
+		BFF986B81879AA9A00EC98D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF986911879AA3300EC98D7 /* XCTest.framework */; };
+		BFF986B91879AA9A00EC98D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF986AA1879AA9900EC98D7 /* Foundation.framework */; };
+		BFF986BB1879AA9A00EC98D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF986BA1879AA9A00EC98D7 /* UIKit.framework */; };
+		BFF986BE1879AA9A00EC98D7 /* libKnxBasicsIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF986A91879AA9900EC98D7 /* libKnxBasicsIOS.a */; };
+		BFF986C41879AA9A00EC98D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFF986C21879AA9A00EC98D7 /* InfoPlist.strings */; };
+		BFF986C61879AA9A00EC98D7 /* KnxBasicsIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986C51879AA9A00EC98D7 /* KnxBasicsIOSTests.m */; };
+		BFF986CF1879AE2300EC98D7 /* KnxDimmerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9866C1879A9E500EC98D7 /* KnxDimmerControl.m */; };
+		BFF986D01879AE2300EC98D7 /* KnxGroupAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9866E1879A9E500EC98D7 /* KnxGroupAddress.m */; };
+		BFF986D11879AE2300EC98D7 /* KnxRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986701879A9E500EC98D7 /* KnxRequest.m */; };
+		BFF986D21879AE2300EC98D7 /* KnxResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986721879A9E500EC98D7 /* KnxResponse.m */; };
+		BFF986D31879AE2300EC98D7 /* KnxRouterInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986741879A9E500EC98D7 /* KnxRouterInterface.m */; };
+		BFF986D41879AE2300EC98D7 /* KnxSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986761879A9E500EC98D7 /* KnxSubscription.m */; };
+		BFF986D51879AE2300EC98D7 /* KnxTelegram.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986781879A9E500EC98D7 /* KnxTelegram.m */; };
+		BFF986D61879AE3200EC98D7 /* KnxDimmerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9866C1879A9E500EC98D7 /* KnxDimmerControl.m */; };
+		BFF986D71879AE3200EC98D7 /* KnxGroupAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9866E1879A9E500EC98D7 /* KnxGroupAddress.m */; };
+		BFF986D81879AE3200EC98D7 /* KnxRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986701879A9E500EC98D7 /* KnxRequest.m */; };
+		BFF986D91879AE3200EC98D7 /* KnxResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986721879A9E500EC98D7 /* KnxResponse.m */; };
+		BFF986DA1879AE3200EC98D7 /* KnxRouterInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986741879A9E500EC98D7 /* KnxRouterInterface.m */; };
+		BFF986DB1879AE3200EC98D7 /* KnxSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986761879A9E500EC98D7 /* KnxSubscription.m */; };
+		BFF986DC1879AE3200EC98D7 /* KnxTelegram.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF986781879A9E500EC98D7 /* KnxTelegram.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF986941879AA3300EC98D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF986651878874900EC98D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF9867C1879AA3300EC98D7;
+			remoteInfo = KnxBasicsOSX;
+		};
+		BFF986BC1879AA9A00EC98D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF986651878874900EC98D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF986A81879AA9900EC98D7;
+			remoteInfo = KnxBasicsIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFF986A71879AA9900EC98D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFF9866B1879A9E400EC98D7 /* KnxDimmerControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnxDimmerControl.h; sourceTree = "<group>"; };
+		BFF9866C1879A9E500EC98D7 /* KnxDimmerControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxDimmerControl.m; sourceTree = "<group>"; };
+		BFF9866D1879A9E500EC98D7 /* KnxGroupAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnxGroupAddress.h; sourceTree = "<group>"; };
+		BFF9866E1879A9E500EC98D7 /* KnxGroupAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxGroupAddress.m; sourceTree = "<group>"; };
+		BFF9866F1879A9E500EC98D7 /* KnxRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnxRequest.h; sourceTree = "<group>"; };
+		BFF986701879A9E500EC98D7 /* KnxRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxRequest.m; sourceTree = "<group>"; };
+		BFF986711879A9E500EC98D7 /* KnxResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnxResponse.h; sourceTree = "<group>"; };
+		BFF986721879A9E500EC98D7 /* KnxResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxResponse.m; sourceTree = "<group>"; };
+		BFF986731879A9E500EC98D7 /* KnxRouterInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnxRouterInterface.h; sourceTree = "<group>"; };
+		BFF986741879A9E500EC98D7 /* KnxRouterInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxRouterInterface.m; sourceTree = "<group>"; };
+		BFF986751879A9E500EC98D7 /* KnxSubscription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnxSubscription.h; sourceTree = "<group>"; };
+		BFF986761879A9E500EC98D7 /* KnxSubscription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxSubscription.m; sourceTree = "<group>"; };
+		BFF986771879A9E500EC98D7 /* KnxTelegram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnxTelegram.h; sourceTree = "<group>"; };
+		BFF986781879A9E500EC98D7 /* KnxTelegram.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxTelegram.m; sourceTree = "<group>"; };
+		BFF9867D1879AA3300EC98D7 /* libKnxBasicsOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKnxBasicsOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF986801879AA3300EC98D7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BFF986831879AA3300EC98D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFF986841879AA3300EC98D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BFF986851879AA3300EC98D7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BFF986881879AA3300EC98D7 /* KnxBasicsOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KnxBasicsOSX-Prefix.pch"; sourceTree = "<group>"; };
+		BFF986901879AA3300EC98D7 /* KnxBasicsOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnxBasicsOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF986911879AA3300EC98D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFF986991879AA3300EC98D7 /* KnxBasicsOSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnxBasicsOSXTests-Info.plist"; sourceTree = "<group>"; };
+		BFF9869B1879AA3300EC98D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFF9869D1879AA3300EC98D7 /* KnxBasicsOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxBasicsOSXTests.m; sourceTree = "<group>"; };
+		BFF986A91879AA9900EC98D7 /* libKnxBasicsIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKnxBasicsIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF986AA1879AA9900EC98D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFF986AE1879AA9900EC98D7 /* KnxBasicsIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KnxBasicsIOS-Prefix.pch"; sourceTree = "<group>"; };
+		BFF986B71879AA9900EC98D7 /* KnxBasicsIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnxBasicsIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF986BA1879AA9A00EC98D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFF986C11879AA9A00EC98D7 /* KnxBasicsIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KnxBasicsIOSTests-Info.plist"; sourceTree = "<group>"; };
+		BFF986C31879AA9A00EC98D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFF986C51879AA9A00EC98D7 /* KnxBasicsIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnxBasicsIOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF9867A1879AA3300EC98D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF986811879AA3300EC98D7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF9868D1879AA3300EC98D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF986931879AA3300EC98D7 /* Cocoa.framework in Frameworks */,
+				BFF986921879AA3300EC98D7 /* XCTest.framework in Frameworks */,
+				BFF986961879AA3300EC98D7 /* libKnxBasicsOSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF986A61879AA9900EC98D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF986AB1879AA9900EC98D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF986B41879AA9900EC98D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF986BE1879AA9A00EC98D7 /* libKnxBasicsIOS.a in Frameworks */,
+				BFF986B81879AA9A00EC98D7 /* XCTest.framework in Frameworks */,
+				BFF986BB1879AA9A00EC98D7 /* UIKit.framework in Frameworks */,
+				BFF986B91879AA9A00EC98D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		BFF986641878874900EC98D7 = {
 			isa = PBXGroup;
 			children = (
+				BFF9866B1879A9E400EC98D7 /* KnxDimmerControl.h */,
+				BFF9866C1879A9E500EC98D7 /* KnxDimmerControl.m */,
+				BFF9866D1879A9E500EC98D7 /* KnxGroupAddress.h */,
+				BFF9866E1879A9E500EC98D7 /* KnxGroupAddress.m */,
+				BFF9866F1879A9E500EC98D7 /* KnxRequest.h */,
+				BFF986701879A9E500EC98D7 /* KnxRequest.m */,
+				BFF986711879A9E500EC98D7 /* KnxResponse.h */,
+				BFF986721879A9E500EC98D7 /* KnxResponse.m */,
+				BFF986731879A9E500EC98D7 /* KnxRouterInterface.h */,
+				BFF986741879A9E500EC98D7 /* KnxRouterInterface.m */,
+				BFF986751879A9E500EC98D7 /* KnxSubscription.h */,
+				BFF986761879A9E500EC98D7 /* KnxSubscription.m */,
+				BFF986771879A9E500EC98D7 /* KnxTelegram.h */,
+				BFF986781879A9E500EC98D7 /* KnxTelegram.m */,
+				BFF986861879AA3300EC98D7 /* KnxBasicsOSX */,
+				BFF986971879AA3300EC98D7 /* KnxBasicsOSXTests */,
+				BFF986AC1879AA9900EC98D7 /* KnxBasicsIOS */,
+				BFF986BF1879AA9A00EC98D7 /* KnxBasicsIOSTests */,
+				BFF9867F1879AA3300EC98D7 /* Frameworks */,
+				BFF9867E1879AA3300EC98D7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		BFF9867E1879AA3300EC98D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF9867D1879AA3300EC98D7 /* libKnxBasicsOSX.a */,
+				BFF986901879AA3300EC98D7 /* KnxBasicsOSXTests.xctest */,
+				BFF986A91879AA9900EC98D7 /* libKnxBasicsIOS.a */,
+				BFF986B71879AA9900EC98D7 /* KnxBasicsIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF9867F1879AA3300EC98D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986801879AA3300EC98D7 /* Cocoa.framework */,
+				BFF986911879AA3300EC98D7 /* XCTest.framework */,
+				BFF986AA1879AA9900EC98D7 /* Foundation.framework */,
+				BFF986BA1879AA9A00EC98D7 /* UIKit.framework */,
+				BFF986821879AA3300EC98D7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFF986821879AA3300EC98D7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986831879AA3300EC98D7 /* Foundation.framework */,
+				BFF986841879AA3300EC98D7 /* CoreData.framework */,
+				BFF986851879AA3300EC98D7 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BFF986861879AA3300EC98D7 /* KnxBasicsOSX */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986871879AA3300EC98D7 /* Supporting Files */,
+			);
+			path = KnxBasicsOSX;
+			sourceTree = "<group>";
+		};
+		BFF986871879AA3300EC98D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986881879AA3300EC98D7 /* KnxBasicsOSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF986971879AA3300EC98D7 /* KnxBasicsOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF9869D1879AA3300EC98D7 /* KnxBasicsOSXTests.m */,
+				BFF986981879AA3300EC98D7 /* Supporting Files */,
+			);
+			path = KnxBasicsOSXTests;
+			sourceTree = "<group>";
+		};
+		BFF986981879AA3300EC98D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986991879AA3300EC98D7 /* KnxBasicsOSXTests-Info.plist */,
+				BFF9869A1879AA3300EC98D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF986AC1879AA9900EC98D7 /* KnxBasicsIOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986AD1879AA9900EC98D7 /* Supporting Files */,
+			);
+			path = KnxBasicsIOS;
+			sourceTree = "<group>";
+		};
+		BFF986AD1879AA9900EC98D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986AE1879AA9900EC98D7 /* KnxBasicsIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF986BF1879AA9A00EC98D7 /* KnxBasicsIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986C51879AA9A00EC98D7 /* KnxBasicsIOSTests.m */,
+				BFF986C01879AA9A00EC98D7 /* Supporting Files */,
+			);
+			path = KnxBasicsIOSTests;
+			sourceTree = "<group>";
+		};
+		BFF986C01879AA9A00EC98D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF986C11879AA9A00EC98D7 /* KnxBasicsIOSTests-Info.plist */,
+				BFF986C21879AA9A00EC98D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BFF9867B1879AA3300EC98D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BFF9867C1879AA3300EC98D7 /* KnxBasicsOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF9869F1879AA3300EC98D7 /* Build configuration list for PBXNativeTarget "KnxBasicsOSX" */;
+			buildPhases = (
+				BFF986791879AA3300EC98D7 /* Sources */,
+				BFF9867A1879AA3300EC98D7 /* Frameworks */,
+				BFF9867B1879AA3300EC98D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnxBasicsOSX;
+			productName = KnxBasicsOSX;
+			productReference = BFF9867D1879AA3300EC98D7 /* libKnxBasicsOSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFF9868F1879AA3300EC98D7 /* KnxBasicsOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF986A21879AA3300EC98D7 /* Build configuration list for PBXNativeTarget "KnxBasicsOSXTests" */;
+			buildPhases = (
+				BFF9868C1879AA3300EC98D7 /* Sources */,
+				BFF9868D1879AA3300EC98D7 /* Frameworks */,
+				BFF9868E1879AA3300EC98D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF986951879AA3300EC98D7 /* PBXTargetDependency */,
+			);
+			name = KnxBasicsOSXTests;
+			productName = KnxBasicsOSXTests;
+			productReference = BFF986901879AA3300EC98D7 /* KnxBasicsOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFF986A81879AA9900EC98D7 /* KnxBasicsIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF986C71879AA9A00EC98D7 /* Build configuration list for PBXNativeTarget "KnxBasicsIOS" */;
+			buildPhases = (
+				BFF986A51879AA9900EC98D7 /* Sources */,
+				BFF986A61879AA9900EC98D7 /* Frameworks */,
+				BFF986A71879AA9900EC98D7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnxBasicsIOS;
+			productName = KnxBasicsIOS;
+			productReference = BFF986A91879AA9900EC98D7 /* libKnxBasicsIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFF986B61879AA9900EC98D7 /* KnxBasicsIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF986CA1879AA9A00EC98D7 /* Build configuration list for PBXNativeTarget "KnxBasicsIOSTests" */;
+			buildPhases = (
+				BFF986B31879AA9900EC98D7 /* Sources */,
+				BFF986B41879AA9900EC98D7 /* Frameworks */,
+				BFF986B51879AA9900EC98D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF986BD1879AA9A00EC98D7 /* PBXTargetDependency */,
+			);
+			name = KnxBasicsIOSTests;
+			productName = KnxBasicsIOSTests;
+			productReference = BFF986B71879AA9900EC98D7 /* KnxBasicsIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		BFF986651878874900EC98D7 /* Project object */ = {
@@ -29,12 +368,115 @@
 				en,
 			);
 			mainGroup = BFF986641878874900EC98D7;
+			productRefGroup = BFF9867E1879AA3300EC98D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				BFF9867C1879AA3300EC98D7 /* KnxBasicsOSX */,
+				BFF9868F1879AA3300EC98D7 /* KnxBasicsOSXTests */,
+				BFF986A81879AA9900EC98D7 /* KnxBasicsIOS */,
+				BFF986B61879AA9900EC98D7 /* KnxBasicsIOSTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF9868E1879AA3300EC98D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF9869C1879AA3300EC98D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF986B51879AA9900EC98D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF986C41879AA9A00EC98D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF986791879AA3300EC98D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF986CF1879AE2300EC98D7 /* KnxDimmerControl.m in Sources */,
+				BFF986D01879AE2300EC98D7 /* KnxGroupAddress.m in Sources */,
+				BFF986D11879AE2300EC98D7 /* KnxRequest.m in Sources */,
+				BFF986D21879AE2300EC98D7 /* KnxResponse.m in Sources */,
+				BFF986D31879AE2300EC98D7 /* KnxRouterInterface.m in Sources */,
+				BFF986D41879AE2300EC98D7 /* KnxSubscription.m in Sources */,
+				BFF986D51879AE2300EC98D7 /* KnxTelegram.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF9868C1879AA3300EC98D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF9869E1879AA3300EC98D7 /* KnxBasicsOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF986A51879AA9900EC98D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF986D61879AE3200EC98D7 /* KnxDimmerControl.m in Sources */,
+				BFF986D71879AE3200EC98D7 /* KnxGroupAddress.m in Sources */,
+				BFF986D81879AE3200EC98D7 /* KnxRequest.m in Sources */,
+				BFF986D91879AE3200EC98D7 /* KnxResponse.m in Sources */,
+				BFF986DA1879AE3200EC98D7 /* KnxRouterInterface.m in Sources */,
+				BFF986DB1879AE3200EC98D7 /* KnxSubscription.m in Sources */,
+				BFF986DC1879AE3200EC98D7 /* KnxTelegram.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF986B31879AA9900EC98D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF986C61879AA9A00EC98D7 /* KnxBasicsIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF986951879AA3300EC98D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF9867C1879AA3300EC98D7 /* KnxBasicsOSX */;
+			targetProxy = BFF986941879AA3300EC98D7 /* PBXContainerItemProxy */;
+		};
+		BFF986BD1879AA9A00EC98D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF986A81879AA9900EC98D7 /* KnxBasicsIOS */;
+			targetProxy = BFF986BC1879AA9A00EC98D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFF9869A1879AA3300EC98D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF9869B1879AA3300EC98D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFF986C21879AA9A00EC98D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFF986C31879AA9A00EC98D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BFF986691878874900EC98D7 /* Debug */ = {
@@ -49,6 +491,340 @@
 			};
 			name = Release;
 		};
+		BFF986A01879AA3300EC98D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnxBasicsOSX/KnxBasicsOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFF986A11879AA3300EC98D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnxBasicsOSX/KnxBasicsOSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFF986A31879AA3300EC98D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnxBasicsOSX/KnxBasicsOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "KnxBasicsOSXTests/KnxBasicsOSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFF986A41879AA3300EC98D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnxBasicsOSX/KnxBasicsOSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "KnxBasicsOSXTests/KnxBasicsOSXTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		BFF986C81879AA9A00EC98D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/KnxBasicsIOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnxBasicsIOS/KnxBasicsIOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BFF986C91879AA9A00EC98D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/KnxBasicsIOS.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnxBasicsIOS/KnxBasicsIOS-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF986CB1879AA9A00EC98D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnxBasicsIOS/KnxBasicsIOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "KnxBasicsIOSTests/KnxBasicsIOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFF986CC1879AA9A00EC98D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KnxBasicsIOS/KnxBasicsIOS-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "KnxBasicsIOSTests/KnxBasicsIOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -60,6 +836,38 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BFF9869F1879AA3300EC98D7 /* Build configuration list for PBXNativeTarget "KnxBasicsOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF986A01879AA3300EC98D7 /* Debug */,
+				BFF986A11879AA3300EC98D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFF986A21879AA3300EC98D7 /* Build configuration list for PBXNativeTarget "KnxBasicsOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF986A31879AA3300EC98D7 /* Debug */,
+				BFF986A41879AA3300EC98D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFF986C71879AA9A00EC98D7 /* Build configuration list for PBXNativeTarget "KnxBasicsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF986C81879AA9A00EC98D7 /* Debug */,
+				BFF986C91879AA9A00EC98D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFF986CA1879AA9A00EC98D7 /* Build configuration list for PBXNativeTarget "KnxBasicsIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF986CB1879AA9A00EC98D7 /* Debug */,
+				BFF986CC1879AA9A00EC98D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
