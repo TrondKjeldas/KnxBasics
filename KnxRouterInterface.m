@@ -157,13 +157,13 @@ void writeTelegram(KnxRequest *request,NSOutputStream *tstream)
                 
                 while(len>0)
                 {
-                    // NSLog(@"Got: len=%lu,"
-                    //       "data=%.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x\n"
-                    //       "     %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x",
-                    //       len, payload[0],payload[1],payload[2],payload[3],payload[4],payload[5],
-                    //       payload[6],payload[7],payload[8],payload[9],
-                    //       payload[10],payload[11],payload[12],payload[13],payload[14],payload[15],
-                    //       payload[16],payload[17],payload[18],payload[19]);
+                    NSLog(@"Got: len=%lu,"
+                           "data=%.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x\n"
+                           "     %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x %.2x",
+                           len, payload[0],payload[1],payload[2],payload[3],payload[4],payload[5],
+                           payload[6],payload[7],payload[8],payload[9],
+                           payload[10],payload[11],payload[12],payload[13],payload[14],payload[15],
+                           payload[16],payload[17],payload[18],payload[19]);
                     
                     if(rsp == Nil)
                     {
